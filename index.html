@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tables, Odered lists, Images and forms</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>HTML Assignment Implementation</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List of what I have learnt so far</h2>
+    <ol type="I">
+        <li>Creating lists</li>
+        <li>Creating tables</li>
+        <li>Importing images</li>
+        <li>Creating forms</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <!-- Contact Table -->
+    <h2>Table of Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Collins Atambo</td>
+            <td>32 Main St</td>
+            <td>0712345678</td>
+            <td>collins@outlook.com</td>
+        </tr>
+        <tr>
+            <td>Janet Ngare</td>
+            <td>456 Ndagani St</td>
+            <td>0787654321</td>
+            <td>janet@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mikel Mwangi</td>
+            <td>789 Chuka St</td>
+            <td>0712233445</td>
+            <td>mikel@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Lisandre Nekesa</td>
+            <td>567 Kakamega St</td>
+            <td>0723344556</td>
+            <td>lisanre@proton.com</td>
+        </tr>
+        <tr>
+            <td>Tom Mboya</td>
+            <td>890 Kisumu St</td>
+            <td>0744556677</td>
+            <td>tombm@excel.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="football" name="interests" value="sports">
+        <label for="football">football</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="Bisycle riding" name="interests" value="reading">
+        <label for="Bisycle riding">Bisycle riding</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
